@@ -62,22 +62,22 @@ python pix2pix.py --mode test --output_dir facades_test --input_dir facades/val 
 
 <img src="1.png">
 
-##（１）マスク処理
+## （１）マスク処理
 用photoshop来做Mask处理
 
-##（２）Split&Join
+## （２）Split&Join
 
 split_image_64.sh
 
 join_XXXXXX_0000000.sh
 
-##（３）Training＆Test
+## （３）Training＆Test
 python pix2pix.py --mode test --input_file 111111_1111111.jpg  --checkpoint 
 
-##（４）MergeSmallToOne
+## （４）MergeSmallToOne  
 merge.py
 
-<img src="2.png"
+<img src="2.png">
 
 
 
