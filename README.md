@@ -19,33 +19,33 @@ https://github.com/affinelayer/pix2pix-tensorflow
 
 
 手順：										
-１．Visual studio 2015 (v140)										
+# １．Visual studio 2015 (v140)										
 										
-２．cuda_9.0, cudnn-9.0のインストール、cudnnのdll,lib,includeフィアルをcudaへCOPY										
+# ２．cuda_9.0, cudnn-9.0のインストール、cudnnのdll,lib,includeフィアルをcudaへCOPY										
 										
-３．Anaconda のインストール										
+# ３．Anaconda のインストール										
 										
-４．Anaconda での新しい Python 環境の作成										
+# ４．Anaconda での新しい Python 環境の作成										
 Anaconda prompt										
-C:\Users\oikawadic>conda create -n Python35TensorFlowGPU python=3.5 anaconda										
-C:\Users\oikawadic>activate Python35TensorFlowGPU										
+conda create -n Python35TensorFlowGPU python=3.5 anaconda										
+activate Python35TensorFlowGPU										
 										
-５．tensorflow-gpu パッケージをインストール (GPUを使用）										
+# ５．tensorflow-gpu パッケージをインストール (GPUを使用）										
 activate Python35TensorFlowGPU										
 pip install --ignore-installed --upgrade tensorflow-gpu										
 										
-６．pix2pixのインストール										
+# ６．pix2pixのインストール										
 https://www.imagemagick.org/script/download.php#windows										
 										
 ImageMagick-7.0.7-32-Q8-x64-dll.exe										
 										
 activate Python35TensorFlowGPU										
 										
-７．データをDownloadする										
+# ７．データをDownloadする										
 python tools\download-dataset.py facades										
 train val test 推荐比例是8:1:1										
 										
-８．モデルのトレーニングを行う操										
+# ８．モデルのトレーニングを行う操										
 										
 Anaconda prompt										
 CD D:\pix2pix-tensorflow-master										
