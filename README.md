@@ -1,15 +1,15 @@
 # pix2pix-tensorflow环境搭建
 
 ## 開発環境：
-AMD Ryzen 7 1700 Eight-Core Processor 3.00GHz, 
-NVIDIA GeForce GTX 1070
-Windows 10(64 bit),
-Visual studio 2015 (v140)
-GPU, cuda_9.0, cudnn-9.0
-Anaconda,
-Python35,
-TensorFlow,
-Pix2pix
+AMD Ryzen 7 1700 Eight-Core Processor 3.00GHz,   
+NVIDIA GeForce GTX 1070  
+Windows 10(64 bit),  
+Visual studio 2015 (v140)  
+GPU, cuda_9.0, cudnn-9.0  
+Anaconda,  
+Python35,  
+TensorFlow,  
+Pix2pix  
 
 参照					
 https://www.kunihikokaneko.com/dblab/tensorflow/pix2pix.html					
