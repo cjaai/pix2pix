@@ -1,6 +1,6 @@
 # pix2pix-tensorflow环境搭建
 
-# 開発環境：
+## 開発環境：
 AMD Ryzen 7 1700 Eight-Core Processor 3.00GHz, 
 NVIDIA GeForce GTX 1070
 Windows 10(64 bit),
@@ -58,5 +58,5 @@ python pix2pix.py --mode test --output_dir facades_test --input_dir facades/val 
 
 # 概要図
 
-<img src="attach:1.png">
+<img src="1.png">
 
